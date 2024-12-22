@@ -10,7 +10,7 @@ import react from '../../assests/react.png';
 import django from '../../assests/django.svg';
 import python from '../../assests/python.png';
 import git from '../../assests/git.png';
-import mysql from '../../assests/mysql.png';
+import mysql from '../../assests/mysql.png'
 
 
 const Skills = () => {
