@@ -5,7 +5,8 @@
 }
 
 .navbarmenu{
-  height: 5.7rem;
+  background-color: rgb(30, 30, 30);
+  height: 5.6rem;
   width: 100vw;
   max-width: 82rem;
   margin: 0 auto;

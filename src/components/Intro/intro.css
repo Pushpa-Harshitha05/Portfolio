@@ -72,3 +72,9 @@
   cursor: pointer;
   padding: 0.5rem 1.2rem;
 }
+
+.profilepic{
+  width: 50vw;
+  max-width: 34vw;
+  min-width: 400px;
+}
