@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="desktopmenu">
         <Link className="desktopmenulistitem" to="intro" smooth={true} duration={80}>Home</Link>
         <Link className="desktopmenulistitem" to="skills" smooth={true} duration={80}>Skills</Link>
-        <Link className="desktopmenulistitem">Projects</Link>
+        <Link className="desktopmenulistitem" to="projects" smooth={true} duration={80}>Projects</Link>
         <Link className="desktopmenulistitem">Profiles</Link>
       </div>
       <button type="button" className="desktopmenubtn">

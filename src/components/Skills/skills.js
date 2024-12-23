@@ -56,7 +56,7 @@ const Skills = () => {
           <img src={django} alt="django" className='django'/>
           <p>Django</p>
         </div>
-        <div className="webskills css">
+        <div className="webskills">
           <img src={mysql} alt="mysql" className='mysql'/>
           <p>MySQL</p>
         </div>
