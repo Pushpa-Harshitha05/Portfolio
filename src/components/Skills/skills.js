@@ -10,7 +10,8 @@ import react from '../../assests/react.png';
 import django from '../../assests/django.svg';
 import python from '../../assests/python.png';
 import git from '../../assests/git.png';
-import mysql from '../../assests/mysql.png'
+import mysql from '../../assests/mysql.png';
+import github from '../../assests/github.jpg'
 
 
 const Skills = () => {
@@ -36,15 +37,19 @@ const Skills = () => {
           <img src={tailwind_css} alt="tailwind_css" className='tailwind'/>
           <p>Tailwind CSS</p>
         </div>
-      </div>
-      <div className='secondrow'>
         <div className="webskills">
           <img src={react} alt="react" className='react'/>
           <p>React</p>
         </div>
+      </div>
+      <div className='secondrow'>
+      <div className="webskills">
+          <img src={django} alt="django" className='django'/>
+          <p>Django</p>
+        </div>
         <div className="webskills">
-          <img src={cpp} alt="C language" className='c_lang'/>
-          <p>C++</p>
+          <img src={mysql} alt="mysql" className='mysql'/>
+          <p>MySQL</p>
         </div>
         <div className="webskills css">
           <img src={python} alt="cpp" className='cpp_lang'/>
@@ -52,13 +57,13 @@ const Skills = () => {
         </div>
       </div>
       <div className="thirdrow">
-        <div className="webskills">
-          <img src={django} alt="django" className='django'/>
-          <p>Django</p>
+      <div className="webskills">
+          <img src={cpp} alt="C language" className='c_lang'/>
+          <p>C++</p>
         </div>
         <div className="webskills">
-          <img src={mysql} alt="mysql" className='mysql'/>
-          <p>MySQL</p>
+          <img src={github} alt="github" className='github'/>
+          <p>GitHub</p>
         </div>
         <div className="webskills">
           <img src={git} alt="git" className='git'/>

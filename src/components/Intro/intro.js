@@ -1,7 +1,7 @@
 import React from 'react'
 import './intro.css'
-import profile from '../../assests/profile.png'
 import {useState,useEffect} from "react";
+import video from '../../assests/profile.png'
 
 const Intro = () => {
 
@@ -48,9 +48,9 @@ const Intro = () => {
         <div className="introbtn">
           <a href="mailto:pharshitha2005@gmail.com" target="_blank" rel="noopener noreferrer" className="hireme">Hire me</a>
           <a href="https://docs.google.com/document/d/1v9qLowVHYFg_b4u0-3Tcr9tMNRkDEUqA/edit?pli=1" target="_blank" rel="noopener noreferrer" className="resume">Resume</a>
-          </div>
+        </div>
       </div>
-      <img src={profile} alt="profile" className="profilepic" />
+      <img src={video} alt="profile" className='profilepic'/>
     </section>
   )
 }

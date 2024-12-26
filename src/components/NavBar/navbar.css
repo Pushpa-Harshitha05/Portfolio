@@ -5,7 +5,7 @@
 }
 
 .navbarmenu{
-  background-color: rgb(30, 30, 30);
+  background: linear-gradient(to right ,rgb(19, 19, 19),rgb(24, 0, 41));
   height: 5.6rem;
   width: 100vw;
   max-width: 82rem;
@@ -13,7 +13,7 @@
   padding: 1rem 2rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   position: sticky;
   top: 0;
   z-index: 3;
@@ -27,7 +27,6 @@
   cursor: pointer;
   font-size: 1.3rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  /* background-color: white; */
 }
 
 .desktopmenulistitem{
@@ -37,8 +36,7 @@
 }
 
 .desktopmenulistitem:hover{
-  background-color: white;
-  color: black;
+  color: #7a50c2;
 }
 
 .logo{
@@ -46,7 +44,17 @@
   height: 3rem;
   border-radius: 5px;
   object-fit: cover;
-  background-color: white;
+  filter: invert(1);
+}
+
+.p_logo{
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-top: 0.4rem;
+  width: 8.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .desktopmenuimg{
@@ -54,19 +62,28 @@
   background-color: black;
   height: 1.5rem;
   object-fit: cover;
-  margin-right: 2px;
+  margin-right: 3px;
+  border-radius: 15px;
 }
 
 .desktopmenubtn{
-  background-color: white;
-  border: none;
-  padding: 0.2rem 0.9rem;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 3px solid #7848cc;
+  padding: 0.2rem 0.65rem;
   border-radius: 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: 16px;
   font-weight: bold;
   height: 3rem;
   cursor: pointer;
+  letter-spacing: 0.03rem;
+}
+
+.desktopmenubtn:hover{
+  background: linear-gradient(to right,purple,#7848cc);
+  color:white;
+  border: 3px solid black;
 }
