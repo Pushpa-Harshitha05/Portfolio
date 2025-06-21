@@ -28,7 +28,7 @@ const Profiles = () => {
 
             <div className="st first">
               <img src={leetcode} alt="leetcode"/>
-              <p>Leetcodes</p>
+              <p>Leetcode</p>
               <a href="https://leetcode.com/u/Pushpa_Harshitha/" target="_blank" rel="noopener noreferrer">View Profile</a>
             </div>
             <div className="st">
