@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.3f8868a8.css",
+    "main.js": "/Portfolio/static/js/main.efabe206.js",
+    "static/media/profile.png": "/Portfolio/static/media/profile.b3334efbdd226f7cc39b.png",
+    "static/media/c_lang.png": "/Portfolio/static/media/c_lang.4af3254b864d4e030bfa.png",
+    "static/media/codechef.png": "/Portfolio/static/media/codechef.e2b4a904d4ce95f9c8d3.png",
+    "static/media/rock_game.png": "/Portfolio/static/media/rock_game.606891dc9d5d7651f75d.png",
+    "static/media/cpp.png": "/Portfolio/static/media/cpp.053a898d752aef72651e.png",
+    "static/media/e-commerce.jpg": "/Portfolio/static/media/e-commerce.f7a4def05b9d461b72ed.jpg",
+    "static/media/css.png": "/Portfolio/static/media/css.17d14cbe91cbf1433b63.png",
+    "static/media/react.png": "/Portfolio/static/media/react.7be14a06594d780a8030.png",
+    "static/media/ambulance_tarcker.webp": "/Portfolio/static/media/ambulance_tarcker.276643ea9823202caa10.webp",
+    "static/media/javascript.webp": "/Portfolio/static/media/javascript.7b75e9a748e24de3a8d0.webp",
+    "static/media/django.svg": "/Portfolio/static/media/django.5a1223ac2b49c39b1bdf4d7cf4f2ce57.svg",
+    "static/media/p_icon.svg": "/Portfolio/static/media/p_icon.ddf1dda7b093851a2f442ef8152530ed.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.3f8868a8.css.map": "/Portfolio/static/css/main.3f8868a8.css.map",
+    "main.efabe206.js.map": "/Portfolio/static/js/main.efabe206.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f8868a8.css",
+    "static/js/main.efabe206.js"
+  ]
+}
