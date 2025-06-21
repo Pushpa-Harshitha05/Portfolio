@@ -47,7 +47,7 @@ const Intro = () => {
         </div>
         <div className="introbtn">
           <a href="mailto:pharshitha2005@gmail.com" target="_blank" rel="noopener noreferrer" className="hireme">Hire me</a>
-          <a href="public/pushpa_harshitha_resume.pdf" target="_blank" rel="noopener noreferrer" className="resume">Resume</a>
+          <a href="https://pushpa-harshitha05.github.io/Portfolio/pushpa_harshitha_resume.pdf" target="_blank" rel="noopener noreferrer" className="resume">Resume</a>
         </div>
       </div>
       <img src={video} alt="profile" className='profilepic'/>
